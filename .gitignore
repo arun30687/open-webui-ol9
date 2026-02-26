@@ -1,0 +1,22 @@
+# Secrets
+.token
+.webui_secret_key
+mcpo/config.json
+
+# Runtime
+venv/
+data/
+logs/
+pids/
+*.log
+__pycache__/
+*.pyc
+
+# Transfer bundles
+packages/
+ollama-linux-amd64.tgz
+ollama-models.tar.gz
+node-*.tar.xz
+
+# OS
+.DS_Store
